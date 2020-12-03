@@ -1,0 +1,60 @@
+
+/*body{
+    background-color: gold;
+}*/
+
+body{
+    /*
+    background (image) permet de mettre l'image fond.
+    mettre le lien extern dans l'url
+    no-repeat: evite que l'image soit repetée
+    center center: image centrée horizontalement et verticalement
+     background-size permet de redimensionner l'image
+     cover prend tout l'ecran
+    */
+    background: url("https://s.rfi.fr/media/display/bd7349c2-0e41-11ea-8c81-005056a9aa4d/w:1280/p:4x3/galaxie_0.jpg") no-repeat center center fixed;
+    background-size: cover;
+} 
+
+h1{
+    color: rgb(194, 31, 19);
+    background-color: rgb(236 231 151);
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*p{
+    color: chartreuse;
+    background-color:  rgb(20 74 74);
+    font-size: 30px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}*/
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: darkorchid;
+    background-color: rgb(32, 178, 81);
+    font-family: 'Stalinist One', cursive;
+}
+
+ul {
+    font-family: 'Big Shoulders Inline Display', cursive;
+    color: yellow;
+}
+
+.clblue{
+    border: dotted 4px blue;
+    
+    opacity: O,5;
+    color: white;
+
+    
+}
+
+.centre{
+    text-align: center;
+}
